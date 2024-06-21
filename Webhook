@@ -93,6 +93,10 @@ if not m then
     warn("Error occurred while sending webhook:", n)
 end
 
+wait(3)
+game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
+
+
 wait(.1)
 getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key ='DCM SETCLIPBOARD CAI DITMEMAY MAY'
@@ -103,6 +107,3 @@ getgenv().key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 _G.Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 _G.DiscordId = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
-
-wait(2)
-game.Players.LocalPlayer.Name = "AfxcaxiRoblox

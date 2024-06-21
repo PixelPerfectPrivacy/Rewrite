@@ -126,6 +126,9 @@ elseif _G.AFXScript == "W-AzurePremiumAD" then
    end
 end
 
+
+
+wait(4)
 getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key ='DCM SETCLIPBOARD CAI DITMEMAY MAY'
 getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"

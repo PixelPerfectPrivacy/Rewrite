@@ -109,6 +109,6 @@ _G.DiscordId = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 
 wait(.1)
-while wait(3) do
+while wait(5) do
 loadstring(game:HttpGet("https://pastefy.app/AvjAnpet/raw"))()
 end

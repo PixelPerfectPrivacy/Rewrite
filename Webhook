@@ -104,5 +104,5 @@ _G.Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 _G.DiscordId = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 script_key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
 
-wait(.1)
+wait(2)
 game.Players.LocalPlayer.Name = "AfxcaxiRoblox

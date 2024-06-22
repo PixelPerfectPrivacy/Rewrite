@@ -112,16 +112,16 @@ elseif _G.AFXScript == "XenonBloxFruit" then
     getgenv().key = "253046870001"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
 elseif _G.AFXScript == "W-AzurePremiumTrueV2" then
-    script_key = "HSyqwdDvbjXfvKfUuRpbizdgbjzJDuAH"
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
 elseif _G.AFXScript == "W-AzurePremiumShowItem" then
-    script_key ='HSyqwdDvbjXfvKfUuRpbizdgbjzJDuAH'
+    script_key ='RZaEFusonhoArtMQhQvIDUQQUDiTmeZM'
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
 elseif _G.AFXScript == "W-AzurePremiumBounty" then
-    script_key = "HSyqwdDvbjXfvKfUuRpbizdgbjzJDuAH"
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
 elseif _G.AFXScript == "W-AzurePremiumAD" then
-    script_key = "HSyqwdDvbjXfvKfUuRpbizdgbjzJDuAH"
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
    end
 end

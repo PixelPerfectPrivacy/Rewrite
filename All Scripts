@@ -115,9 +115,6 @@ elseif _G.AFXScript == "LuxuryHub" then
     _G.Key = "main_plApLlc6v7i2ZApha01m"
     _G.DiscordId = "1200342481275977752"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Lux-Sexy/main/Body.lua"))()
-elseif _G.AFXScript == "XenonBloxFruit" then
-    getgenv().key = "253046870001"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
 elseif _G.AFXScript == "W-AzurePremiumTrueV2" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()

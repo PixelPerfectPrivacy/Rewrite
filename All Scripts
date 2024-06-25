@@ -146,7 +146,7 @@ elseif _G.AFXScript == "W-AzurePremiumShowItem" then
 elseif _G.AFXScript == "W-AzurePremiumBounty" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
-elseif _G.AFXScript == "W-AzurePremiumAD" then
+elseif _G.AFXScript == "W-AzurePremiumADSender" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
 elseif _G.AFXScript == "XenonTTD" then

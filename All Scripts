@@ -78,6 +78,9 @@ end
 if not (gethwid() == "1111111111111111111111111111111111111111111111111111111111111111") then
     game.Players.LocalPlayer:Kick("Wrong Executor, Please Use Our Executor Gave You")
 else
+if not identifyexecutor() == "Delta" or not identifyexecutor() == "Hydrogen then
+    game.Players.LocalPlayer:Kick("Wrong Executor, Please Use Our Executor Gave You")
+else
 if _G.AFXScript == "MaruHub" then
     getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
     getgenv().id = "1003662302412820622"
@@ -97,18 +100,34 @@ elseif _G.AFXScript == "BananaHubKaitunAd" then
 elseif _G.AFXScript == "BuangHub" then
     script_key = "gvHUxtVkxKDijdpXEsLouTrsPBzcJBRJ"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/PremiumBuangHub.lua"))()
-elseif _G.AFXScript == "SwitchHub7M" then
-    script_key="mDlqkmPCADhxWzEyFkujVQpxCxdzinYJ";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/81574cc738de90c0ec2ee3ef084b45e1.lua"))()
 elseif _G.AFXScript == "XenonToiletTowerDefender" then
     getgenv().key = "295306171272"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
 elseif _G.AFXScript == "SwitchHubKaitun" then
-    script_key="uvDmPpzMXrFxVXATBfVgDvupSyXYCmPq";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58876769bc015b00b9a3008484e99085.lua"))()
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "Kaitun" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
 elseif _G.AFXScript == "SwitchHubPro" then
-    script_key = "PAHlLSFuTDaGKxbqFqqrhWLjKMQSymhn";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58328ea2259c450ea64a10414568a7dc.lua"))()
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "Pro" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHub7M" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "7M" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHubCapcut" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "Capcut" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHubV4" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "V4" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))() 
 elseif _G.AFXScript == "RoyXHub" then
     _G.Key = "NWM28-NT79J-0H84P"
     _G.DiscordId = "905657612928958484"
@@ -129,6 +148,7 @@ elseif _G.AFXScript == "W-AzurePremiumBounty" then
 elseif _G.AFXScript == "W-AzurePremiumAD" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+      end
    end
 end
 

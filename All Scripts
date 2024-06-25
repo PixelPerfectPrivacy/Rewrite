@@ -152,6 +152,12 @@ elseif _G.AFXScript == "W-AzurePremiumAD" then
 elseif _G.AFXScript == "XenonTTD" then
     getgenv().key = "295306171272"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumADOneClick" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumADMain" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))() 
 end
 
 

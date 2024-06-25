@@ -136,16 +136,16 @@ elseif _G.AFXScript == "LuxuryHub" then
     _G.Key = "main_plApLlc6v7i2ZApha01m"
     _G.DiscordId = "1200342481275977752"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Lux-Sexy/main/Body.lua"))()
-elseif _G.AFXScript == "W-AzurePremiumTrueV2" then
+elseif _G.AFXScript == "WAzurePremiumTrueV2" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-elseif _G.AFXScript == "W-AzurePremiumShowItem" then
+elseif _G.AFXScript == "WAzurePremiumShowItem" then
     script_key ='RZaEFusonhoArtMQhQvIDUQQUDiTmeZM'
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
-elseif _G.AFXScript == "W-AzurePremiumBounty" then
+elseif _G.AFXScript == "WAzurePremiumBounty" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
-elseif _G.AFXScript == "W-AzurePremiumAD" then
+elseif _G.AFXScript == "WAzurePremiumAD" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
       end

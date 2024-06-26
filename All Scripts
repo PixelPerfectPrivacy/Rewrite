@@ -136,12 +136,12 @@ elseif _G.AFXScript == "SwitchHubV4" then
     script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))() 
 elseif _G.AFXScript == "RoyXHub" then
-    _G.Key = "NWM28-NT79J-0H84P"
-    _G.DiscordId = "905657612928958484"
+    _G.Key = "XT1W2-FBBNX-2A9O8"
+    _G.DiscordId = "1003662302412820622"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
 elseif _G.AFXScript == "LuxuryHub" then
-    _G.Key = "main_plApLlc6v7i2ZApha01m"
-    _G.DiscordId = "1200342481275977752"
+    _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
+    _G.DiscordId = "1003662302412820622"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Lux-Sexy/main/Body.lua"))()
 elseif _G.AFXScript == "W-AzurePremiumTrueV2" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"

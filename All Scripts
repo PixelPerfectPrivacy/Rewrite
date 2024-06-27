@@ -89,9 +89,8 @@ elseif _G.AFXScript == "SwitchHubKaitun" then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
 elseif _G.AFXScript == "SwitchHubPro" then
     if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
-    getgenv().Mode = "Pro" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
-    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+    script_key = "pJWtdycJeaCUjNldNtAzHQGsAPujkTUZ";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58328ea2259c450ea64a10414568a7dc.lua"))()
 elseif _G.AFXScript == "SwitchHub7M" then
     if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
     getgenv().Mode = "7M" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 

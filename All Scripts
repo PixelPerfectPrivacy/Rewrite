@@ -1,3 +1,5 @@
+game.Players.LocalPlayer.Name = "mygame43"
+game.Players.LocalPlayer.UserId = "912348"
 loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
 
 wait(.1)

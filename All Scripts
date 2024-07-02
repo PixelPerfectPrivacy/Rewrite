@@ -130,7 +130,7 @@ elseif _G.AFXScript == "W-AzurePremiumShowItem" then
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
 elseif _G.AFXScript == "W-AzurePremiumBounty" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()  
 elseif _G.AFXScript == "W-AzurePremiumADSender" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()

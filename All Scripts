@@ -72,9 +72,6 @@ else
     game.Players.LocalPlayer:Kick("The Key or Discord ID is wrong. Please check the script and report to us.")
 end
 
-if (not identifyexecutor() == "Delta" or not identifyexecutor() == "Hydrogen") then
-   game.Players.LocalPlayer:Kick("Wrong Executor, Please Use Executor AfxcaxiRoblox Gave Yoy")
-else
 if _G.AFXScript == "MaruHub" then
     getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
     getgenv().id = "1003662302412820622"
@@ -147,7 +144,6 @@ elseif _G.AFXScript == "W-AzurePremiumADOneClick" then
 elseif _G.AFXScript == "W-AzurePremiumADMain" then
     script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))() 
-   end
 end
 
 

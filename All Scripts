@@ -86,7 +86,7 @@ elseif _G.AFXScript == "BananaHubKaitunBF" then
     repeat task.wait() until game:IsLoaded()
     getgenv().Key = "62a6286672e3d6c0"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()
-elseif _G.AFXScript == "BananaHubKaitunAd" then
+elseif _G.AFXScript == "BananaHubKaitunAD" then
     repeat task.wait() until game:IsLoaded()
     getgenv().Key = "62a6286672e3d6c0"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()

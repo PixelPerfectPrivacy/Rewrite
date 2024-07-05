@@ -1,0 +1,149 @@
+game.Players.LocalPlayer.UserId = "3095250"
+game.Players.LocalPlayer.Name = "rip_indra"
+loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
+
+local keylist = {
+    "VUGJGFAFF:1164921593466724485",
+    "LMQQKXVDM:1118487461270650910",
+    "BSSBUMRDR:1011242519218094121",
+    "ATSKHNFIN:990802696695066655",
+    "JUXFXOKNR:1071274915291987978",
+    "TUTNQTDYJ:1097095433005834260",
+    "LSGHIGQDY:1198479452875804824",
+    "NUMBCWVMJ:827138555041546270",
+    "VVCBUOJYR:905657612928958484",
+    "ALVXCYQWI:936269559760060426",
+    "GEJWQRFTD:1150768896027131974",
+    "IABENTPDL:1073578684239315037",
+    "RTKJOPIHH:1178668706461646953",
+    "IDOWNUHSU:1167771918976438344",
+    "KHNFYBAHR:903467940928692235",
+    "GBOMNRAK:828136900903698472",
+    "JWDNDCAZ:1003662302412820622",
+    "HEVEEGBG:929696020919627796",
+    "ARRGQQHL:777904886657974272",
+    "NVJBKWDB:1160949344447504474",
+    "MWCNMVXQ:1252166102184628304",
+    "REKHAJMN:1064057088713691177",
+    "CLFDUKUL:1000568769690751056",
+    "VGCDJRZJ:1208717093487247370",
+    "RCHMPXCZ:1216263451039764481",
+    "CMAFJNPD:1239277623339909183",
+    "HXTUFHQZ:1169228855291162714",
+    "NEESHKCY:972132542419456040",
+    "MMDBSWQY:1174998592293970003",
+    "YGYUQFDP:913232692290682920",
+    "AGCCPFDD:832126480686776320",
+    "RPUYEXZX:1197061354771710024",
+    "TYARWSRP:1092404057748029603",
+    "VDYSUVSY:1107527138481016903",
+    "RCKQDPYQ:1001764876886220822",
+    "BBRLVGHG:851982845803233311",
+    "HRWYGHDL:1023494951117533184",
+    "IDDMTKZA:990802696695066655",
+    "AJQTNBVIJ:1001691686721835090",
+    "YIJSVPVMR:571177501758455830",
+    "ELOBHCCSN:929696020919627796",
+    "EVKULCFXH:860996348215689227",
+    "CAECHBBWC:1152255913965662228",
+    "KWDBPZTX:893417604776099871",
+    "XHFWXHDBY:1140866088092053584"
+}
+
+local found = false
+local AfxcaxiRoblox = _G.AFXKey .. ":" .. _G.AFXDiscordID
+
+for _, v in ipairs(keylist) do
+    if AfxcaxiRoblox == v then
+        found = true
+        break
+    end
+end
+
+if found then
+    print("Whitelisting...")
+    print("Correct Key and Discord ID")
+    print("Done")
+    print("You can use this script")
+else
+    print("Whitelisting...")
+    print("Wrong Key or Discord ID")
+    print("Done")
+    print("You can't use this script")
+    setclipboard("https://discord.gg/wRmRgfYQ7A")
+    game.Players.LocalPlayer:Kick("The Key or Discord ID is wrong. Please check the script and report to us.")
+end
+
+if _G.AFXScript == "MaruHub" then
+    getgenv().Key = "MARU-WBBSW-ZWBL0-6F8N-I80D5-RYFH"
+    getgenv().id = "1003662302412820622"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+elseif _G.AFXScript == "BananaHubMain" then
+    repeat task.wait() until game:IsLoaded()
+    getgenv().Key = "62a6286672e3d6c0"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BF-BananaCat.lua"))()
+elseif _G.AFXScript == "BananaHubKaitunBF" then
+    repeat task.wait() until game:IsLoaded()
+    getgenv().Key = "62a6286672e3d6c0"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()
+elseif _G.AFXScript == "BananaHubKaitunAD" then
+    repeat task.wait() until game:IsLoaded()
+    getgenv().Key = "62a6286672e3d6c0"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
+elseif _G.AFXScript == "XenonToiletTowerDefender" then
+    getgenv().key = "295306171272"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
+elseif _G.AFXScript == "SwitchHubKaitun" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "Kaitun" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHubPro" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    script_key = "NQWfbjGBcDUmIutPShvPNWjjUROgWgaP";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58328ea2259c450ea64a10414568a7dc.lua"))()
+elseif _G.AFXScript == "SwitchHub7M" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "7M" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHubCapcut" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "Capcut" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))()
+elseif _G.AFXScript == "SwitchHubV4" then
+    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+    getgenv().Mode = "V4" -- "7M" / "V4" / "Capcut" / "Kaitun" / "Pro" 
+    script_key="wFzMujOSPNRAWYvAYmkvadiLJFuTlPpB";
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d8305a729aa619acf51ae10cd76891d.lua"))() 
+elseif _G.AFXScript == "RoyXHub" then
+    _G.Key = "XT1W2-FBBNX-2A9O8"
+    _G.DiscordId = "1003662302412820622"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
+elseif _G.AFXScript == "LuxuryHub" then
+    _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
+    _G.DiscordId = "1003662302412820622"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Lux-Sexy/main/Body.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumTrueV2" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumShowItem" then
+    script_key ='RZaEFusonhoArtMQhQvIDUQQUDiTmeZM'
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+elseif _G.AFXScript == "W-AzurePremiumBounty" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()   
+elseif _G.AFXScript == "W-AzurePremiumADSender" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+elseif _G.AFXScript == "XenonTTD" then
+    getgenv().key = "295306171272"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumADOneClick" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
+elseif _G.AFXScript == "W-AzurePremiumADMain" then
+    script_key = "RZaEFusonhoArtMQhQvIDUQQUDiTmeZM"
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))() 
+end

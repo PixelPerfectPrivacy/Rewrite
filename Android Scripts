@@ -38,12 +38,18 @@ elseif _G.Script == "RoyXHub" then
    _G.DiscordId = "1003662302412820622"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
 elseif _G.Script == "XenonHubTTD" then
+   script_key = "295306171272";
+   wait(1)
    getgenv().key = '295306171272'
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
 elseif _G.Script == "XenonHubBF" then
+   script_key = "253046870001";
+   wait(1)
    getgenv().key = '253046870001'
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
 elseif _G.Script == "XenonHubAD" then
+   script_key = "116079394428";
+   wait(1)
    getgenv().key = '116079394428'
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
 elseif _G.Script == "BananaHubMainBF" then

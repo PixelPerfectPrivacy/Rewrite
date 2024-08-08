@@ -30,10 +30,14 @@ OrionLib:MakeNotification({
 })
 print("Axionix")
 if _G.Script == "MaruHub" then
+   script_key = "MARU-0ZIBP-HP5E-XU4UU-HC4M-9RGFU";
+   wait(1)
    getgenv().Key = "MARU-0ZIBP-HP5E-XU4UU-HC4M-9RGFU"
    getgenv().id = "1244913105998184458"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 elseif _G.Script == "RoyXHub" then
+   script_key = "XT1W2-FBBNX-2A9O";
+   wait(1)
    _G.Key = "XT1W2-FBBNX-2A9O8"
    _G.DiscordId = "1003662302412820622"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
@@ -53,54 +57,80 @@ elseif _G.Script == "XenonHubAD" then
    getgenv().key = '116079394428'
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
 elseif _G.Script == "BananaHubMainBF" then
+   script_key = "396f5fecb4bebc7ddfa29832";
+   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
    getgenv().Key = "396f5fecb4bebc7ddfa29832" 
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 elseif _G.Script == "BananaHubKaitunBF" then
+   script_key = "396f5fecb4bebc7ddfa29832";
+   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
 elseif _G.Script == "BananaHubKaitunAD" then
+   script_key = "396f5fecb4bebc7ddfa29832";
+   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
 elseif _G.Script == "BananaHubBountyBF" then
+   script_key = "396f5fecb4bebc7ddfa29832";
+   wait(1)
    repeat wait()
    until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-BountyEz.lua"))()
 elseif _G.Script == "SwitchHubPro" then
+   script_key = "NQWfbjGBcDUmIutPShvPNWjjUROgWgaP";
+   wait(1)
    if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
    script_key = "NQWfbjGBcDUmIutPShvPNWjjUROgWgaP";
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58328ea2259c450ea64a10414568a7dc.lua"))()
 elseif _G.Script == "SwitchHubKaitun" then
+   script_key = "OxOplIcQxuvNbZOgnqTJEKMZKlNpMAXD";
+   wait(1)
    script_key="OxOplIcQxuvNbZOgnqTJEKMZKlNpMAXD";
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/58876769bc015b00b9a3008484e99085.lua"))()
 elseif _G.Script == "SwitchHubCapcut" then
+   script_key = "PaSCTwQLohEFmbVkRCsxGSHXYXEzGIcw";
+   wait(1)
    script_key="PaSCTwQLohEFmbVkRCsxGSHXYXEzGIcw";
    loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/main/screenshot.lua"))()
 elseif _G.Script == "W-AzurePremiumTrueV2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
 elseif _G.Script == "W-AzurePremiumADSender" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
 elseif _G.Script == "W-AzurePremiumADMain" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    if getgenv().Loaded  then
        return 
    end
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
 elseif _G.Script == "W-AzurePremiumADOneClick" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    if getgenv().Loaded  then
        return 
    end
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
 elseif _G.Script == "W-AzurePremiumBountyV2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()
 elseif _G.Script == "W-AzurePremiumBountyV2.2" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   wait(1)
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
 end

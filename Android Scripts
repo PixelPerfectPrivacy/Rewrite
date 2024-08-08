@@ -134,7 +134,7 @@ elseif _G.Script == "W-AzurePremiumBountyV2.2" then
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
 end
-print("Axionix")
+wait(1)
 getgenv().Key = "https://discord.com/invite/cx2Fpsr3ry"
 Key1 = getgenv().Key
 getgenv().id = "https://discord.com/invite/cx2Fpsr3ry"

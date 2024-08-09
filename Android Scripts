@@ -30,14 +30,10 @@ OrionLib:MakeNotification({
 })
 print("Axionix")
 if _G.Script == "MaruHub" then
-   script_key = "MARU-0ZIBP-HP5E-XU4UU-HC4M-9RGFU";
-   wait(1)
    getgenv().Key = "MARU-0ZIBP-HP5E-XU4UU-HC4M-9RGFU"
    getgenv().id = "1244913105998184458"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 elseif _G.Script == "RoyXHub" then
-   script_key = "XT1W2-FBBNX-2A9O";
-   wait(1)
    _G.Key = "XT1W2-FBBNX-2A9O8"
    _G.DiscordId = "1003662302412820622"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
@@ -57,26 +53,18 @@ elseif _G.Script == "XenonHubAD" then
    getgenv().key = '116079394428'
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
 elseif _G.Script == "BananaHubMainBF" then
-   script_key = "396f5fecb4bebc7ddfa29832";
-   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
    getgenv().Key = "396f5fecb4bebc7ddfa29832" 
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 elseif _G.Script == "BananaHubKaitunBF" then
-   script_key = "396f5fecb4bebc7ddfa29832";
-   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
 elseif _G.Script == "BananaHubKaitunAD" then
-   script_key = "396f5fecb4bebc7ddfa29832";
-   wait(1)
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
 elseif _G.Script == "BananaHubBountyBF" then
-   script_key = "396f5fecb4bebc7ddfa29832";
-   wait(1)
    repeat wait()
    until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
@@ -168,7 +156,6 @@ print("Axionix")
 setclipboard(Key1)
 print("Axionix")
 setclipboard(Key2)
-loadstring(game:HttpGet("https://pastefy.app/XwYOIHO5/raw"))()
 print("Axionix")
 setclipboard(Key3)
 print("Axionix")
